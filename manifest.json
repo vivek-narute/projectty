@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "CP Snippets Login",
+  "version": "1.0.0",
+  "description": "Modern login UI for a competitive programming snippets extension (e.g., quicksort, DS templates).",
+  "action": {
+    "default_title": "CP Snippets",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "http://localhost:3000/*"
+  ]
+}
